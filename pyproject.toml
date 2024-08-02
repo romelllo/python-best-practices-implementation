@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "python-best-practices-implementation"
+version = "0.1.0"
+description = "The hypermodern Python project"
+license="MIT"
+authors = ["romelllo <romannovikov526@gmail.com>"]
+readme = "README.md"
+homepage="https://github.com/romelllo/python-best-practices-implementation"
+repository="https://github.com/romelllo/python-best-practices-implementation"
+keywords=["hypermodern"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.7"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+python-best-practices-implementation = "python_best_practices_implementation.console:main"
